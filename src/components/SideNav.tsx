@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 const SideNav = () => {
   return (
-    <aside>
+    <nav className='border md:w-64 md:h-screen hidden'>
         <Link href="/admin/dashboard">Dashboard</Link>
-    </aside>
+    </nav>
   )
 }
 
-export default SideNav
+export default SideNav;

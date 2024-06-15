@@ -12,7 +12,6 @@ export default function Home() {
           height={50}
           priority
         />
-        <Link href={"/login"} className="md:text-6xl text-4xl">Login</Link>
       </div>
     </main>
   );
