@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Admin Dashboard",
 }
-export async function Admin() {
+export default async function AdminPage() {
   const session = await auth();
   return (
     <div>
@@ -17,5 +17,3 @@ export async function Admin() {
     </div>
   );
 }
-
-export default Admin;
